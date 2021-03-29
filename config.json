@@ -1,7 +1,7 @@
 {
     "login": {
-        "user": "test",
-        "pass": "test"
+        "user": "user",
+        "pass": "password"
     },
     "browserConfig": {}
 }
