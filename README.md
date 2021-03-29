@@ -15,6 +15,17 @@ After install node modules using the command below
 #it will install all dependency it may take a few minutes
 npm install
 ```
+## Configuration
+Bot can be configured editing config.json
+```json
+{
+    "login": {
+        "user": "user",
+        "pass": "password"
+    },
+    "browserConfig": {}
+}
+```
 ### Starting
 
 When it's done you can lauch your Node console at the server root using the command below
