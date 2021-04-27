@@ -29,7 +29,7 @@ class Utils extends Data {
 
     async updateEmployee() {
         await this.goto("animaux.php?bot=1")
-        console.log("Employéé updated")
+        console.log("Employee updated")
     }
 
     async getInfos() {
