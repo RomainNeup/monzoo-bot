@@ -13,6 +13,7 @@ class Zoo extends Utils {
             .then(() => this.login(this.CONFIG.login))
             .then(() => this.getInfos())
             .then(() => this.getMessages())
+            .then(() => this.updateEmployee())
     }
 
     checkTicket() {
